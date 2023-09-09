@@ -1,9 +1,9 @@
 #include <unistd.h>
 /**
- *a C program that prints exactly and that
+ *main - C program that prints exactly and that
  *piece of art is usefu
  *
- *Return: betty is not nice
+ *Return: Always 1 (Success)
  *
  */
 int main(void)
