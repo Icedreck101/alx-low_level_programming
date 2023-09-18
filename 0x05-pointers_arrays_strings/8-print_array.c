@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
-*print_array - Prints n elements of an array.
+*print_array - Prints n elements of an array of integers,
+*followed by a new line.
 *@a: Pointer to the array.
 *@n: The number of elements to be printed.
 */
@@ -14,7 +15,6 @@ for (int i = 0; i < n - 1; i++)
 {
 printf("%d, ", a[i]);
 }
-
 printf("%d\n", a[n - 1]);
 }
 else
